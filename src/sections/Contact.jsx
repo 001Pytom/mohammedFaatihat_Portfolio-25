@@ -1,26 +1,29 @@
-import reactIcon from "../assets/icons/react.png";
+import mailIcon from "../assets/icons/mail.png";
+import linkedinIcon from "../assets/icons/linkedin.png";
+import githubIcon from "../assets/icons/github.png";
 import Image from "../ui/Image";
+
 const listOfSocials = [
   {
     id: "github",
     text: "GitHub",
     link: "https://github.com/001Pytom",
     target: "_blank",
-    icon: reactIcon,
+    icon: githubIcon,
   },
   {
     id: "linkedin",
     text: "LinkedIn",
     link: "https://www.linkedin.com/in/faatihat-mohammed/",
     target: "_blank",
-    icon: reactIcon,
+    icon: linkedinIcon,
   },
   {
     id: "email",
     text: "Email",
     link: "mailto:mohammedfaatihat@gmail.com",
     target: "_self",
-    icon: reactIcon,
+    icon: mailIcon,
   },
 ];
 

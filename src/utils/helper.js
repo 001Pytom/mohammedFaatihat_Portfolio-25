@@ -4,6 +4,7 @@ import tailwindIcon from "../assets/icons/tailwind.png";
 import jsIcon from "../assets/icons/javascript.png";
 import htmlIcon from "../assets/icons/html.png";
 import cssIcon from "../assets/icons/css.png";
+import tyoescriptIcon from "../assets/icons/typescript.png";
 
 import responsiveIcon from "../assets/icons/mdi_responsive.png";
 import figmaIcon from "../assets/icons/figma.png";
@@ -34,7 +35,7 @@ export const listOfTools = [
   {
     id: "typescript",
     text: "TypeScript",
-    icon: jsIcon,
+    icon: tyoescriptIcon,
   },
   {
     id: "html",
