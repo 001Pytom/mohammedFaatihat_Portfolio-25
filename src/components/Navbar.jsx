@@ -18,7 +18,7 @@ const navLinks = [
     text: "Contact",
   },
 ];
-function NavBar() {
+function Navbar() {
   return (
     <nav className="rounded-xl bg-background-body bg-opacity-[80%]  sticky bottom-[4rem] left-1/2 transform -translate-x-1/2 z-10 max-w-max">
       <ul className="inline-flex items-center p-6 gap-[3.88rem]  ">
@@ -26,12 +26,12 @@ function NavBar() {
           <li key={link.id}>
             <Link
               to={`${link.id}`}
+              spy={true}
               smooth={true}
               duration={500}
-              spy={true}
-              activeClass="text-primary opacity-[100%] !important"
+              activeClass="text-white opacity-[80%] !important"
               // onSetActive={(id) => console.log(`${id} is now active`)}
-              className=" text-primary uppercase text-2xl font-light opacity-[60%] cursor-pointer  "
+              className=" text-secondary  uppercase text-2xl font-light  cursor-pointer  "
             >
               {link.text}
             </Link>
@@ -42,4 +42,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;

@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Projects from "./sections/Projects";
@@ -11,7 +11,7 @@ function App() {
       <Projects />
       <Services />
       <Contact />
-      <NavBar />
+      <Navbar />
     </div>
   );
 }
