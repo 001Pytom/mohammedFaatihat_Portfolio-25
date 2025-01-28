@@ -10,9 +10,15 @@ function About() {
           <div className="flex-1 text-center text-2xl uppercase tracking-[0.12rem] font-light ">
             Faatihat Mohammed
           </div>
-          <Link to="/" className=" underline cursor-pointer">
+          <a
+            href="https://drive.google.com/file/d/1lsoCC1Zh1TZMvWEEp87ALoCY4SbLNccg/view?usp=sharing"
+            className=" underline cursor-pointer"
+            rel="noopener noreferrer"
+            aria-label="Resume"
+            target="_blank"
+          >
             Resume
-          </Link>
+          </a>
         </header>
 
         <div className="">
