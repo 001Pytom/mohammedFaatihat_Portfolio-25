@@ -21,9 +21,10 @@ function MainProject({ stack, description, title, image, alt }) {
             {description}
           </p>
         </div>
-
+        {/* <div className="bg-red-500 relative w-full inset-0 h-auto"> */}
         <Image src={image} alt={alt} />
       </div>
+      {/* </div> */}
     </div>
   );
 }

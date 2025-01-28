@@ -29,9 +29,9 @@ function NavBar() {
               smooth={true}
               duration={500}
               spy={true}
-              activeClass="text-primary opacity-100 !important"
+              activeClass="text-primary opacity-[100%] !important"
               // onSetActive={(id) => console.log(`${id} is now active`)}
-              className=" text-primary uppercase text-2xl font-light opacity-[80%] cursor-pointer  "
+              className=" text-primary uppercase text-2xl font-light opacity-[60%] cursor-pointer  "
             >
               {link.text}
             </Link>
