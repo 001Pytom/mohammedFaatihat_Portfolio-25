@@ -1,10 +1,10 @@
 const Image = ({ src, alt, className, ...props }) => {
   return (
-    <div>
+    <div className="">
       <img
         src={src}
         alt={alt}
-        className={`max-w-full  ${className}`}
+        className={`w-full h-auto max-w-full object-cover  ${className}`}
         {...props}
       />
     </div>

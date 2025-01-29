@@ -11,7 +11,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="p-20 flex flex-col gap-20 items-center relative"
+      className="py-20 px-10 md:px-20 space-y-20  relative"
     >
       <MainProject
         stack="React/TailwindCss"
@@ -32,7 +32,7 @@ function Projects() {
       />
       <MiniProject
         leftItem={{
-          stack: "HTML/JAVASCRIPT/TAILWINDCSS",
+          stack: "Html/JavaScript/TailwindCss",
           title: "First Portfolio",
           image: prevPortfolio,
           alt: "Portfolio image",

@@ -71,3 +71,23 @@ export const listOfSkills = [
     icon: debuggingIcon,
   },
 ];
+
+// navlinks
+export const navLinks = [
+  {
+    id: "about",
+    text: "About",
+  },
+  {
+    id: "projects",
+    text: "Projects",
+  },
+  {
+    id: "services",
+    text: "Services",
+  },
+  {
+    id: "contact",
+    text: "Contact",
+  },
+];

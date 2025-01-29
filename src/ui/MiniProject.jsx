@@ -12,9 +12,9 @@ function MiniProject({ leftItem, rightItem }) {
   };
 
   return (
-    <div>
+    <div className="">
       <Line width="58rem" />
-      <div className="flex justify-between items-center w-full gap-[3.75rem] mt-10">
+      <div className="flex flex-col md:flex-row justify-between md:items-center w-full gap-10 md:gap-[3.75rem] mt-10 xl:px-20 ">
         {items.map((item, index) => (
           <div
             key={index}
@@ -22,7 +22,9 @@ function MiniProject({ leftItem, rightItem }) {
           >
             <div className="flex flex-col gap-6">
               <p className="text-muted text-base font-light">{item.stack}</p>
-              <h3 className="text-5xl tracking-[-0.12rem]">{item.title}</h3>
+              <h3 className="text-4xl lg:text-5xl tracking-[-0.12rem]">
+                {item.title}
+              </h3>
             </div>
 
             <div className="relative w-full h-full">
