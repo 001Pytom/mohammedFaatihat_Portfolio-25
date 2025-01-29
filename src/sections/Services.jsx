@@ -1,6 +1,5 @@
-import SkillsnTools from "../ui/SkillsnTools";
-
 import { listOfSkills, listOfTools } from "../utils/helper";
+import SkillsnTools from "../ui/SkillsnTools";
 
 function Services() {
   return (

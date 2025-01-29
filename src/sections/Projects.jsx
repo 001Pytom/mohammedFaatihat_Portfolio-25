@@ -7,6 +7,7 @@ import memoryGame from "../assets/memoryGame.png";
 import chatGptUi from "../assets/chatgptUi.png";
 import MiniProject from "../ui/MiniProject";
 import lalasia from "../assets/lalasia.png";
+
 function Projects() {
   return (
     <section

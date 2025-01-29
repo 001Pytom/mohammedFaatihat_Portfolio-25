@@ -11,6 +11,10 @@ import figmaIcon from "../assets/icons/figma.png";
 import materialUiIcon from "../assets/icons/materialUi.png";
 import debuggingIcon from "../assets/icons/debugg.png";
 
+import mailIcon from "../assets/icons/mail.png";
+import linkedinIcon from "../assets/icons/linkedin.png";
+import githubIcon from "../assets/icons/github.png";
+
 export const listOfTools = [
   {
     id: "react",
@@ -89,5 +93,29 @@ export const navLinks = [
   {
     id: "contact",
     text: "Contact",
+  },
+];
+// contact
+export const listOfSocials = [
+  {
+    id: "github",
+    text: "GitHub",
+    link: "https://github.com/001Pytom",
+    target: "_blank",
+    icon: githubIcon,
+  },
+  {
+    id: "linkedin",
+    text: "LinkedIn",
+    link: "https://www.linkedin.com/in/faatihat-mohammed/",
+    target: "_blank",
+    icon: linkedinIcon,
+  },
+  {
+    id: "email",
+    text: "Email",
+    link: "mailto:mohammedfaatihat@gmail.com",
+    target: "_self",
+    icon: mailIcon,
   },
 ];

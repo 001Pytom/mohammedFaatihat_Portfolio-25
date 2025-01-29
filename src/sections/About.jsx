@@ -1,6 +1,5 @@
 import Image from "../ui/Image";
 import FaatihatImage from "../assets/faatihat.png";
-import { Link } from "react-scroll";
 
 function About() {
   return (
