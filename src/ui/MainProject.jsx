@@ -39,6 +39,7 @@ function MainProject({ stack, description, title, image, alt, link }) {
             variants={overlayVariants}
             initial="hidden"
             whileHover="visible"
+            whileTap="visible"
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <motion.a

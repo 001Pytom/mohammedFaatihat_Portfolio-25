@@ -19,7 +19,7 @@ function Projects() {
         image={lalasia}
         alt={"Lalasia Furniture Website"}
         title="Lalasia Furniture Website"
-        description="A website that allows users to choose / buy any furniture from the comfort of their home."
+        description="A website that allows users to choose / buy any furniture from the comfort of their home. (currently under development) "
         link="https://lalasia-furniture.vercel.app/"
       />
 

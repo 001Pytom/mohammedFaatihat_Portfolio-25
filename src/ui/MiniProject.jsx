@@ -43,6 +43,7 @@ function MiniProject({ leftItem, rightItem }) {
               <motion.div
                 initial="hidden"
                 whileHover="visible"
+                whileTap="visible"
                 variants={overlayVariants}
                 transition={{ duration: 0.5, ease: "easeOut" }}
                 className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg"
