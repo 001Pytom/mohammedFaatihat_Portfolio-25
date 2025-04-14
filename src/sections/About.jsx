@@ -31,7 +31,7 @@ function About() {
           <Image src={FaatihatImage} alt="Faatihat Mohammed" />
           <p className="text-muted text-sm sm:text-base  md:text-lg lg:text-xl font-light  w-[36rem] max-w-full">
             I’m Faatihat, a front-end developer who builds seamless, interactive
-            web experiences. From dynamic applications with React to clean,
+            web experiences. From dynamic applications with React, Next.js to clean,
             efficient designs with Tailwind CSS, my focus is on creating
             functional, visually engaging, and user-friendly solutions.
           </p>

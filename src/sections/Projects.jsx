@@ -7,6 +7,7 @@ import memoryGame from "../assets/memoryGame.png";
 import chatGptUi from "../assets/chatgptUi.png";
 import MiniProject from "../ui/MiniProject";
 import lalasia from "../assets/lalasia.png";
+import techielove from "../assets/techielove.png";
 
 function Projects() {
   return (
@@ -14,6 +15,14 @@ function Projects() {
       id="projects"
       className="py-20 px-10 md:px-20 space-y-20  relative"
     >
+      <MainProject
+        stack="Next.js/TypeScript/TailwindCss"
+        image={techielove}
+        alt={"Techies Match"}
+        title="Techies Match"
+        description="Contributed to a high-performing team, Techies Match, in building a Progressive Web App (PWA) and functional landing pages designed to help tech professionals connect and find love. (Click 'Get Started' on the landing page to explore the app.)"
+        link="https://lalasia-furniture.vercel.app/"
+      />
       <MainProject
         stack="React/TailwindCss"
         image={lalasia}
