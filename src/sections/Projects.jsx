@@ -8,6 +8,7 @@ import chatGptUi from "../assets/chatgptUi.png";
 import MiniProject from "../ui/MiniProject";
 import lalasia from "../assets/lalasia.png";
 import techielove from "../assets/techielove.png";
+import ticketGenerator from "../assets/ticketGenerator.png";
 
 function Projects() {
   return (
@@ -39,6 +40,14 @@ function Projects() {
         title="Teehat Shopping Website"
         description="A sleek, React-powered e-commerce platform designed for effortless browsing and shopping."
         link="https://shooping-website.vercel.app/"
+      />
+      <MainProject
+        stack="React/TailwindCss"
+        image={ticketGenerator}
+        alt={"Conference Ticket Generator"}
+        title="Conference Ticket Generator"
+        description="A user-friendly React app for generating  conference tickets."
+        link="https://hng-12-conference-ticket-generator-2.vercel.app/"
       />
       <MiniProject
         leftItem={{
