@@ -10,13 +10,13 @@ function About() {
             Faatihat Mohammed
           </div>
           <a
-            href="https://drive.google.com/file/d/1lsoCC1Zh1TZMvWEEp87ALoCY4SbLNccg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LeJVCLGmLsfGQ_O0WjwDURuTWbQiKXCD/view?usp=sharing"
             className=" underline cursor-pointer mr-10"
             rel="noopener noreferrer"
             aria-label="Resume"
             target="_blank"
           >
-            Resume
+            Resume 
           </a>
         </header>
 
@@ -31,8 +31,8 @@ function About() {
           <Image src={FaatihatImage} alt="Faatihat Mohammed" />
           <p className="text-muted text-sm sm:text-base  md:text-lg lg:text-xl font-light  w-[36rem] max-w-full">
             I’m Faatihat, a front-end developer who builds seamless, interactive
-            web experiences. From dynamic applications with React, Next.js to clean,
-            efficient designs with Tailwind CSS, my focus is on creating
+            web experiences. From dynamic applications with React, Next.js to
+            clean, efficient designs with Tailwind CSS, my focus is on creating
             functional, visually engaging, and user-friendly solutions.
           </p>
         </div>

@@ -8,6 +8,7 @@ import chatGptUi from "../assets/chatgptUi.png";
 import MiniProject from "../ui/MiniProject";
 import lalasia from "../assets/lalasia.png";
 import techielove from "../assets/techielove.png";
+import nestft from "../assets/nestft.png";
 import ticketGenerator from "../assets/ticketGenerator.png";
 
 function Projects() {
@@ -16,6 +17,14 @@ function Projects() {
       id="projects"
       className="py-20 px-10 md:px-20 space-y-20  relative"
     >
+      <MainProject
+        stack="Next.js/TypeScript/TailwindCss"
+        image={nestft}
+        alt={"nestft"}
+        title="NestFT.dev"
+        description="A  development platform where developers work on real-world projects, get AI-graded feedback , gain real-life experinece and grow thier tech career."
+        link="https://nest-ft-dev.vercel.app/"
+      />
       <MainProject
         stack="Next.js/TypeScript/TailwindCss"
         image={techielove}
