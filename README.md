@@ -14,7 +14,7 @@ A modern, responsive portfolio website showcasing my work as a Creative Front-en
 
 ##  Live Demo
 
-Visit the live portfolio: https://mohammed-faatihat-portfolio-25.vercel.app/
+Visit the live portfolio: [portfolio link](https://mohammed-faatihat-portfolio-25.vercel.app/)
 
 
 ### Core Technologies
@@ -163,7 +163,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ##  Connect
 
-- **Portfolio**: https://mohammed-faatihat-portfolio-25.vercel.app/
+- **Portfolio**:[portfolio link](https://mohammed-faatihat-portfolio-25.vercel.app/)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/faatihat-mohammed/)
 - **GitHub**: [GitHub Profile](https://github.com/001Pytom)
 - **Email**: mohammedfaatihat@gmail.com
