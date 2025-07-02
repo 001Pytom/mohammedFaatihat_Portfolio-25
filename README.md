@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my work as a Creative Front-end Developer. Built with React and featuring smooth animations, clean design, and an intuitive user experience.
 
-## 🌟 Features
+##  Features
 
 - **Responsive Design**: Optimized for all devices from mobile to desktop
 - **Smooth Animations**: Powered by Framer Motion for engaging user interactions
@@ -12,11 +12,10 @@ A modern, responsive portfolio website showcasing my work as a Creative Front-en
 - **Skills & Tools Display**: Comprehensive overview of technical capabilities
 - **Contact Integration**: Direct links to social profiles and email contact
 
-## 🚀 Live Demo
+##  Live Demo
 
-Visit the live portfolio: [Your Portfolio URL]
+Visit the live portfolio: https://mohammed-faatihat-portfolio-25.vercel.app/
 
-## 🛠️ Built With
 
 ### Core Technologies
 - **React 18** - Modern JavaScript library for building user interfaces
@@ -34,7 +33,7 @@ Visit the live portfolio: [Your Portfolio URL]
 - **PostCSS & Autoprefixer** - CSS processing and vendor prefixing
 - **Geist Font** - Modern typography from Vercel
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -58,7 +57,7 @@ src/
 └── App.jsx            # Main application component
 ```
 
-## 🎨 Design Features
+##  Design Features
 
 ### Color Palette
 - **Primary**: White (#fff) - Main text and highlights
@@ -113,14 +112,14 @@ npm run build
 
 The optimized build will be generated in the `dist` folder.
 
-## 📱 Responsive Breakpoints
+##  Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 - **Large Desktop**: > 1280px
 
-## 🎯 Key Sections
+##  Key Sections
 
 ### About
 - Professional introduction and personal branding
@@ -143,7 +142,7 @@ The optimized build will be generated in the `dist` folder.
 - **Professional Messaging**: Clear call-to-action for collaboration
 - **Accessibility**: Proper ARIA labels and semantic markup
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Projects
 1. Add project images to `src/assets/`
@@ -158,13 +157,13 @@ The optimized build will be generated in the `dist` folder.
 ### Modifying Colors
 Update the color palette in `tailwind.config.js` under the `colors` section.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Connect
+##  Connect
 
-- **Portfolio**: [Your Portfolio URL]
+- **Portfolio**: https://mohammed-faatihat-portfolio-25.vercel.app/
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/faatihat-mohammed/)
 - **GitHub**: [GitHub Profile](https://github.com/001Pytom)
 - **Email**: mohammedfaatihat@gmail.com
